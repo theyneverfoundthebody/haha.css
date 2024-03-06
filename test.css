@@ -1,0 +1,69 @@
+/* Start of custom Discord theme */
+
+/* Set background color */
+:root {
+    --background-primary: #2c2f33;
+    --background-secondary: #23272a;
+    --background-secondary-alt: #1f2124;
+    --background-tertiary: #292b2f;
+}
+
+/* Set text color */
+:root {
+    --text-normal: #ffffff;
+    --text-muted: #72767d;
+}
+
+/* Set accent color */
+:root {
+    --brand-experiment: #7289da;
+}
+
+/* Set channel and guild colors */
+.guilds-wrapper .guilds .guilds-add, .guilds-wrapper .guilds .guilds-add.active {
+    background-color: #23272a;
+}
+
+/* Set sidebar and header colors */
+:root {
+    --background-modifier-hover: rgba(0, 0, 0, 0.1);
+    --background-modifier-selected: rgba(0, 0, 0, 0.2);
+    --background-modifier-active: rgba(0, 0, 0, 0.3);
+}
+
+/* Set message and chat colors */
+.message-group .comment {
+    background-color: #292b2f;
+    border: 1px solid #292b2f;
+}
+
+/* Set mention colors */
+.message-group .mention {
+    background-color: #7289da;
+}
+
+/* Set link colors */
+:root {
+    --interactive-hover: rgba(114, 137, 218, 0.1);
+    --interactive-active: rgba(114, 137, 218, 0.2);
+}
+
+/* Set button colors */
+.button-2xu7vJ, .button-2xu7vJ:hover {
+    background-color: #7289da !important;
+    border-color: #7289da !important;
+}
+
+/* Set accent colors for buttons */
+.button-2xu7vJ, .button-2xu7vJ:active, .button-2xu7vJ:focus {
+    background-color: #7289da !important;
+    border-color: #7289da !important;
+    color: #ffffff !important;
+}
+
+/* Set status colors */
+.user-popout .header-2o-2hj {
+    background-color: #7289da;
+}
+
+/* End of custom Discord theme */
