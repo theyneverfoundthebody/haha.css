@@ -16,7 +16,7 @@
 
 /* Set accent color */
 :root {
-    --brand-experiment: #7289da;
+    --brand-experiment: #ffffff; /* White color for Discord logo */
 }
 
 /* Set channel and guild colors */
@@ -64,6 +64,16 @@
 /* Set status colors */
 .user-popout .header-2o-2hj {
     background-color: #7289da;
+}
+
+/* Add smooth animations */
+* {
+    transition: all 0.3s ease !important;
+}
+
+/* Change Discord title */
+.title-3qD0b- {
+    content: "ChickenBut"; /* Change Discord title to "ChickenBut" */
 }
 
 /* End of custom Discord theme */
